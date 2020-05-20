@@ -1,5 +1,5 @@
 phatdoan@Yogi DevOpsWithDocker % docker ps -a
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                      PORTS               NAMES
-f4d917e4e875        nginx               "nginx -g 'daemon of…"   19 minutes ago      Up 19 minutes               80/tcp              flamboyant_torvalds
-b486ad234421        nginx               "nginx -g 'daemon of…"   19 minutes ago      Exited (0) 19 minutes ago                       strange_swanson
-c38c85c61b10        nginx               "nginx -g 'daemon of…"   22 minutes ago      Exited (0) 19 minutes ago   
+f4d917e4e875        nginx               "nginx -g 'daemon of…"   29 minutes ago      Up 29 minutes               80/tcp              flamboyant_torvalds
+b486ad234421        nginx               "nginx -g 'daemon of…"   30 minutes ago      Exited (0) 29 minutes ago                       strange_swanson
+c38c85c61b10        nginx               "nginx -g 'daemon of…"   32 minutes ago      Exited (0) 29 minutes ago    
