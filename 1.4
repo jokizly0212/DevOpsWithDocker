@@ -1,0 +1,13 @@
+phatdoan@Yogi DevOpsWithDocker % docker run -d devopsdockeruh/exec_bash_exercise
+999e6b45a4149fe11940a671865c78e4d1752a650b51ee64265a28045ea03e7e
+phatdoan@Yogi DevOpsWithDocker % docker exec -it 25 bash
+root@258b0cebe5f4:/usr/app# tail -f./logs.txt
+tail: invalid option -- '.'
+Try 'tail --help' for more information.
+root@258b0cebe5f4:/usr/app# tail -f ./logs.txt
+Wed, 20 May 2020 11:19:46 GMT
+Wed, 20 May 2020 11:19:49 GMT
+Wed, 20 May 2020 11:19:52 GMT
+Wed, 20 May 2020 11:19:55 GMT
+Secret message is:
+"Docker is easy"

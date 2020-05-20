@@ -1,0 +1,14 @@
+# touch logs.txt
+
+# docker run -d \
+  --name ex_1.8 \
+  --mount type=bind,source="$(pwd)"/logs.txt,target=/usr/app/logs.txt \
+  devopsdockeruh/first_volume_exercise
+  
+# cat logs.txt
+Wed, 20 May 2020 15:04:53 GMT
+Wed, 20 May 2020 15:04:56 GMT
+Wed, 20 May 2020 15:04:59 GMT
+Wed, 20 May 2020 15:05:02 GMT
+Secret message is:
+"Volume bind mount is easy"

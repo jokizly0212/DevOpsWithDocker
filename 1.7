@@ -1,0 +1,29 @@
+phatdoan@Yogi DevOpsWithDocker % docker build -t curler .
+Sending build context to Docker daemon  97.79kB
+Step 1/5 : FROM ubuntu:16.04
+ ---> 005d2078bdfa
+Step 2/5 : WORKDIR /mydir
+ ---> Using cache
+ ---> 22402a2d0d6a
+Step 3/5 : RUN apt-get update && apt-get install -y curl
+ ---> Using cache
+ ---> 8b0045cdc5e1
+Step 4/5 : CMD echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;
+ ---> Using cache
+ ---> e8a5fe71ce0a
+Step 5/5 : CMD ["/bin/bash"]
+ ---> Using cache
+ ---> 109a2324e413
+Successfully built 109a2324e413
+Successfully tagged curler:latest
+phatdoan@Yogi DevOpsWithDocker % docker run -it curler
+Input website:
+helsinki.fi
+Searching..
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.helsinki.fi/">here</a>.</p>
+</body></html>
