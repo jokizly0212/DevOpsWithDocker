@@ -1,0 +1,24 @@
+DockerFile
+
+
+FROM ubuntu:16.04
+
+RUN apt-get update && apt-get install -y curl
+RUN curl -sL https://deb.nodesource.com/setup_10.x | bash
+RUN apt-get install -y nodejs
+RUN bash -c 'echo node -v && npm -v'
+
+COPY backend-example-docker /usr/local/www/backend
+WORKDIR /usr/local/www/backend
+
+RUN npm install
+
+EXPOSE 8000
+CMD ["npm", "start"]
+
+Commands
+
+docker run --mount type=bind,source="$(pwd)"/logs.txt,target=/usr/local/www/backend/logs.txt -p 8000:8000 test-backend
+
+5/20/2020, 3:19:28 PM: Connection received in root
+5/20/2020, 3:19:28 PM: Connection received in root
