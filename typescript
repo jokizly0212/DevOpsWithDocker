@@ -1,39 +1,0 @@
-Script started on Wed May 20 13:12:29 2020
-[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004hgit clone git@bitbucket.org:quanturi/quanturi-react.git
-[K
-[K[K[A[1B[A[A[33C                                                       [1B[K[1B[K[A[A[33Cgit clone git@bitbucket.org:quanturi/quanturi-react.git[1B[K[1B[K[K[A[A[33Cls                                                     [1B[K[1B[K[A[A[35Ccd Ass_mkdir Ass_[10Dls        [8Dcd Documents[12Dls          [10Dl  ddocker ins       d  ddocker rm dt 5[?2004l[1Bd5
-[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004hddocker container ls -a[?2004l
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                      PORTS               NAMES
-f4d917e4e875        nginx               "nginx -g 'daemon of…"   19 minutes ago      Up 19 minutes               80/tcp              flamboyant_torvalds
-b486ad234421        nginx               "nginx -g 'daemon of…"   19 minutes ago      Exited (0) 19 minutes ago                       strange_swanson
-c38c85c61b10        nginx               "nginx -g 'daemon of…"   22 minutes ago      Exited (0) 19 minutes ago                       vigilant_wright
-[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004hddocker ps -a[?2004l
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                      PORTS               NAMES
-f4d917e4e875        nginx               "nginx -g 'daemon of…"   19 minutes ago      Up 19 minutes               80/tcp              flamboyant_torvalds
-b486ad234421        nginx               "nginx -g 'daemon of…"   19 minutes ago      Exited (0) 19 minutes ago                       strange_swanson
-c38c85c61b10        nginx               "nginx -g 'daemon of…"   22 minutes ago      Exited (0) 19 minutes ago                       vigilant_wright
-[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004hggit push    commit -m[?2004l
-error: switch `m' requires a value
-[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004hggit . status[?2004l
-On branch master
-
-No commits yet
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31m1.1 Getting Started[m
-	[31mtypescript[m
-
-nothing added to commit but untracked files present (use "git add" to track)
-[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004hggit add .vOpsWithDocker % [K[?2004hddocker container ls -a[?2004l
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                      PORTS               NAMES
-f4d917e4e875        nginx               "nginx -g 'daemon of…"   19 minutes ago      Up 19 minutes               80/tcp              flamboyant_torvalds
-b486ad234421        nginx               "nginx -g 'daemon of…"   19 minutes ago      Exited (0) 19 minutes ago                       strange_swanson
-c38c85c61b10        nginx               "nginx -g 'daemon of…"   22 minutes ago      Exited (0) 19 minutes ago                       vigilant_wright
-[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004hddocker ps -a[?2004l
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                      PORTS               NAMES
-f4d917e4e875        nginx               "nginx -g 'daemon of…"   19 minutes ago      Up 19 minutes               80/tcp              flamboyant_torvalds
-b486ad234421        nginx               "nginx -g 'daemon of…"   19 minutes ago      Exited (0) 19 minutes ago                       strange_swanson
-c38c85c61b10        nginx               "nginx -g 'daemon of…"   22 minutes ago      Exited (0) 19 minutes ago                       vigilant_wright
-[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004hggit push 
