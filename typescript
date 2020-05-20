@@ -26,14 +26,116 @@ Untracked files:
 	[31mtypescript[m
 
 nothing added to commit but untracked files present (use "git add" to track)
-[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004hggit add .vOpsWithDocker % [K[?2004hddocker container ls -a[?2004l
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                      PORTS               NAMES
-f4d917e4e875        nginx               "nginx -g 'daemon of…"   19 minutes ago      Up 19 minutes               80/tcp              flamboyant_torvalds
-b486ad234421        nginx               "nginx -g 'daemon of…"   19 minutes ago      Exited (0) 19 minutes ago                       strange_swanson
-c38c85c61b10        nginx               "nginx -g 'daemon of…"   22 minutes ago      Exited (0) 19 minutes ago                       vigilant_wright
-[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004hddocker ps -a[?2004l
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                      PORTS               NAMES
-f4d917e4e875        nginx               "nginx -g 'daemon of…"   19 minutes ago      Up 19 minutes               80/tcp              flamboyant_torvalds
-b486ad234421        nginx               "nginx -g 'daemon of…"   19 minutes ago      Exited (0) 19 minutes ago                       strange_swanson
-c38c85c61b10        nginx               "nginx -g 'daemon of…"   22 minutes ago      Exited (0) 19 minutes ago                       vigilant_wright
-[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004hggit push 
+[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004hggit commit-  -m "Submitting the G 11 .2 1 Getting Started Excer                                             branch[?2004l
+[?1h=[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004hggit branch Part 1     part1[?2004l
+fatal: Not a valid object name: 'master'.
+[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004hggit branch -b part1[?2004l
+error: unknown switch `b'
+usage: git branch [<options>] [-r | -a] [--merged | --no-merged]
+   or: git branch [<options>] [-l] [-f] <branch-name> [<start-point>]
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+   or: git branch [<options>] [-r | -a] [--points-at]
+   or: git branch [<options>] [-r | -a] [--format]
+
+Generic options
+    -v, --verbose         show hash and subject, give twice for upstream branch
+    -q, --quiet           suppress informational messages
+    -t, --track           set up tracking mode (see git-pull(1))
+    -u, --set-upstream-to <upstream>
+                          change the upstream info
+    --unset-upstream      Unset the upstream info
+    --color[=<when>]      use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --delete          delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --move            move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    -c, --copy            copy a branch and its reflog
+    -C                    copy a branch, even if target exists
+    -l, --list            list branch names
+    --create-reflog       create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --column[=<style>]    list branches in columns
+    --sort <key>          field name to sort on
+    --points-at <object>  print only branches of the object
+    -i, --ignore-case     sorting and filtering are case insensitive
+    --format <format>     format to use for the output
+
+[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpst1[?2004l
+error: unknggit comm    status[?2004l
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	[32mnew file:   1.1 Getting Started[m
+	[32mnew file:   typescript[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   typescript[m
+
+[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004hggtg git commit -m "part1   1     Submiit  tting the Getting       1.1 Getting Started tas   task; 'su   output"[?2004l
+[master (root-commit) d54f54e] Submitting the 1.1 Getting Started task' output
+ 2 files changed, 44 insertions(+)
+ create mode 100644 1.1 Getting Started
+ create mode 100644 typescript
+[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004hggit push [?2004l
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/jokizly0212/DevOpsWithDocker.git/'
+[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004h   -C                    copy a branch, even if target exists
+    -l, --list            list branch names
+    --create-reflog       create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --column[=<style>]    list branches in columns
+    --sort <key>          field name to sort on
+    --points-at <object>  print only branches of the object
+    -i, --ignore-case     sorting and filtering are case insensitive
+    --format <format>     format to use for the output
+
+[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004hggit comm    status[?2004l
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	[32mnew file:   1.1 Getting Started[m
+	[32mnew file:   typescript[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   typescript[m
+
+[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004hggtg git commit -m "part1   1     Submiit  tting the Getting       1.1 Getting Started tas   task; 'su   output"[?2004l
+[master (root-commit) d54f54e] Submitting the 1.1 Getting Started task' output
+ 2 files changed, 44 insertions(+)
+ create mode 100644 1.1 Getting Started
+ create mode 100644 typescript
+[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004hggit push [?2004l
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/jokizly0212/DevOpsWithDocker.git/'
+[1m[7m%[27m[1m[0m                                                                                                                            [0m[27m[24m[Jphatdoan@Yogi DevOpsWithDocker % [K[?2004h
